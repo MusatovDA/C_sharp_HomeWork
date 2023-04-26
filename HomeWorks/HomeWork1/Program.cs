@@ -25,20 +25,26 @@
 // Console.Write("Input third number: ");
 // int num3 = Convert.ToInt32(Console.ReadLine());
 // int max = Math.Max(num1, Math.Max(num2, num3));
-
 // if (max == num1)
 // {
 //     Console.WriteLine($"{num1} -> max namber");
 // }
-
 // else if (max == num2)
 // {
 //     Console.WriteLine($"{num2} -> min namber");
 // }
-
 // else if (max == num3)
 // {
 //     Console.WriteLine($"{num3} -> max namber");
 // }
 
 //Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+// Console.WriteLine("Enter one number:");
+// int num = Convert.ToInt32(Console.ReadLine());
+
+// if (num % 2 == 0)
+//     Console.WriteLine($" число {num} является четным");
+// else 
+//     Console.WriteLine($" число {num} является не четным");
+
